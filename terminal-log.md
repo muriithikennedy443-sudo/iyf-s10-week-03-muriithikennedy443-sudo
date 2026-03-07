@@ -4,10 +4,10 @@
 
 Commands used:
 
-pwd
-ls
-mkdir terminal-practice
-cd terminal-practice
+pwd<br>
+ls<br>
+mkdir terminal-practice<br>
+cd terminal-practice<br>
 cd ..
 
 ## Exercise 2
@@ -15,13 +15,13 @@ cd ..
 
 Command used:
 
-mkdir terminal-practice
-mkdir docs
-mkdir src
-mkdir tests
-mkdir src/css
-mkdir src/js
-mkdir src/images
+mkdir terminal-practice<br>
+mkdir docs<br>
+mkdir src<br>
+mkdir tests<br>
+mkdir src/css<br>
+mkdir src/js<br>
+mkdir src/images<br>
 touch README.md
 
 #
