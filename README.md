@@ -31,7 +31,6 @@ iyf-s10-week-03-muriithikennedy443-sudo/
       css/
         style.css
       js/
-      main.js
         main.js
       images/
     docs/
