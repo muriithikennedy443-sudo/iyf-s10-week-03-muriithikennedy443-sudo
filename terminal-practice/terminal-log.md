@@ -63,3 +63,26 @@ my-awesome-app/src
 my-awesome-app/src/css
 my-awesome-app/src/images
 my-awesome-app/src/js
+Task 6.2: Branching and Merging
+Commit history after all exercises:
+47d8991 fix: resolve merge conflict in index.html
+e2565fe feat: add heading version B
+1052327 feat: add heading version A
+eab8ac7 feat: add about page content
+3f004d2 docs: update README with project information
+acb7b26 fix: correct responsive breakpoints
+d20276b feat: add navigation styling
+0643108 Completed Task 5.4 shell script basics
+bbc8e17 Complete Task 5.3 useful terminal commands
+2724d80 Added index.html, contact.html, and about.html to terminal-practice
+a498c5f Completed Task5.2 reorganisation challenge
+cebbc2b Merge branch 'main' of https://github.com/muriithikennedy443-sudo/iyf-s10-week-03-muriithikennedy443-sudo
+07e54f6 Completed Task 5.2 file operation
+6e9c9ca Add .gitkeep to keep empty folders
+44afc17 Update terminal-log.md with HTML line breaks
+b780887 Add terminal-log.md
+c215fd9 Initial commit
+Current branches:
+  feature/contact-form
+  feature/new-header
+* main
