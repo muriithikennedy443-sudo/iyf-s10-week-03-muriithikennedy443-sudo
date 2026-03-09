@@ -1,0 +1,14 @@
+# Dependencies - never commit node_modules
+node _modules/
+
+# IDE settings - these are personal to each developer's computer
+>vscode/
+.vscode/
+.idea/
+
+. DS_Store
+Thumbs.db
+
+# Temporary files - change constantly and pollute history
+*.log
+*.tmp

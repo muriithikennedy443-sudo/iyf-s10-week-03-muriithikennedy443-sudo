@@ -86,3 +86,43 @@ Current branches:
   feature/contact-form
   feature/new-header
 * main
+Task 6.3: GitHub Remote Workflow
+Exercise 1: Remote repository connection:
+origin	https://github.com/muriithikennedy443-sudo/iyf-s10-week-03-muriithikennedy443-sudo (fetch)
+origin	https://github.com/muriithikennedy443-sudo/iyf-s10-week-03-muriithikennedy443-sudo (push)
+Exercise 2: Collaboration simulation pull result:
+8958e10 docs: simulate collaboration change from clone
+7240ab7 Completed Task 6.2 branching and merging exercises
+47d8991 fix: resolve merge conflict in index.html
+e2565fe feat: add heading version B
+1052327 feat: add heading version A
+Exercise 3: .gitignore contents:
+# Dependencies - never commit node_modules
+node _modules/
+
+# IDE settings - these are personal to each developer's computer
+>vscode/
+.vscode/
+.idea/
+
+. DS_Store
+Thumbs.db
+
+# Temporary files - change constantly and pollute history
+*.log
+*.tmp
+Git status showing .log files are ignored:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   terminal-log.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	../repo-clone/
+	.gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
