@@ -35,3 +35,31 @@ Q4: My last 10 terminal commands:
    71  wc -l src/css/style.css >> terminal-log.md
    72  history | tail -10
    73  history | tail -10 >> terminal-log.md
+Task 5.4: Shell Basics
+Script contents:
+#!/bin/bash
+# Create a new project withstandard structure
+
+PROJECT_NAME=$1
+
+if [ -z "PROJECT_NAME" ]; then
+   echo "Usage: ./new-project.sh project name"
+   exit 1
+fi
+
+mkdir -p "$PROJECT_NAME"/{src/{css,js,images},docs,tests}
+touch "PROJECT_NAME"/README.md
+touch "PROJECT_NAME"/src/index.html
+touch "PROJECT_NAME"/src/css/style.css
+touch "PROJECT_NAME"/src/js/main.js
+
+echo "# $PROJECT_NAME" > "$PROJECT_NAME"/README.md
+echo "Project $PROJECT_NAME created successfully!"
+Script test result - project structure created:
+my-awesome-app
+my-awesome-app/docs
+my-awesome-app/tests
+my-awesome-app/src
+my-awesome-app/src/css
+my-awesome-app/src/images
+my-awesome-app/src/js
